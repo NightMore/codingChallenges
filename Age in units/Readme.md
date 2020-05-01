@@ -85,4 +85,3 @@ in seconds (60 seconds in a minute, 3600 every hour, 86400 each day)
 	seconds = minutes * 60
 
 and so on... (just extra zeroes, taking up useful ram, at this point)
-
