@@ -11,13 +11,13 @@ o = old (day of birth. IDK why not b)
 a = age
 t = temporary (var.)
 	
-# Getting current age
+	Getting current age
 	
 cYear  - oYear  = aYear
 cMonth - oMonth = aMonth
 cDay   - oDay   = aDay
 
-# Correcting current age
+	Correcting current age
 
 if(aYear <= 1)
 	Error: bad date
@@ -42,7 +42,7 @@ if(aDay >= 31) // if aDay becomes higher, due to leap days
 	aDay = aDay - 31
 	aMonth++
 
-# Calculating current age in differnt units of time
+	Calculating current age in differnt units of time
 
 in millennia (1000 years)
 	millennia = aYear / 1000
